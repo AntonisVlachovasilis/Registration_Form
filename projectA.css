@@ -1,0 +1,59 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+*{
+   box-sizing:border-box;
+   margin:0;
+   padding:0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE;
+}
+#headline{
+    border-bottom: 3px black solid;
+    padding: 10px;
+}
+#headline h1 span{
+    color: orange;
+
+}
+#validation_form{
+    padding: 60px;
+    border: 1px solid #DADADA;
+    font-size: 14px;
+    box-shadow: 0 0 10px;
+    border-radius: 40px 0px 40px 0px;
+}
+#registration_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 14px;
+}
+.form{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.form input{
+    width: 250px;
+    height: 35px;
+}
+
+.form button{
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+}
+.form #submit:hover{
+   box-shadow: 0px 1px 15px 6px #FF9740;
+}
